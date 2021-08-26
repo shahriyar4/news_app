@@ -1,6 +1,4 @@
 import 'dart:io';
-
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_web_browser/flutter_web_browser.dart';
@@ -14,8 +12,7 @@ class NewsView extends StatefulWidget {
 }
 
 class _NewsViewState extends State<NewsView> {
-  final String baseUrl =
-      'https://newsapi.org/v2/top-headlines?country=us&apiKey=07b547dad53c4208810379a479746cf9';
+ 
 
   @override
   Widget build(BuildContext context) {
